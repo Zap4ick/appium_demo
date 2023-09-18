@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/Zap4ick/appium_demo/actions/workflows/maven.yml/badge.svg)](https://github.com/Zap4ick/appium_demo/actions/workflows/maven.yml)
+
 # Appium test project
 
 This is a test project to test appium.
@@ -13,7 +15,7 @@ Tests are run consequently, parallel run is not implemented.
 Put file (e.g. SecretEscapes.apk) into resources folder.  
 Appium should be installed: https://appium.io/docs/en/2.1/quickstart/install/  
 Uiautomator plugin should be installed: https://appium.io/docs/en/2.1/quickstart/uiauto2-driver/  
-_npm_, _nodejs_, _adb_ tools paths should be added to Path variable to be available from the application  
+Tools _npm_, _nodejs_, _adb_ paths should be added to Path variable to be available from the application.
 Take a look at **core.properties** file for other parameters.  
 
 ## Known issues
