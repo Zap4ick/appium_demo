@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Airflow tests" verbose="1">
+    <test name="Welcome page locale Test">
+        <classes>
+            <class name="secretescapes.scenarios.WelcomePageLocaleTest"/>
+        </classes>
+    </test>
+    <test name="First Email Login Test">
+        <classes>
+            <class name="secretescapes.scenarios.FirstEmailLoginTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Airflow tests" verbose="1">
+    <test name="Incorrect Email Test">
+        <classes>
+            <class name="secretescapes.scenarios.IncorrectEmailTest"/>
+        </classes>
+    </test>
+    <test name="No Internet Login Test">
+        <classes>
+            <class name="secretescapes.scenarios.NoInternetLoginTest"/>
+        </classes>
+    </test>
+</suite>
