@@ -19,7 +19,6 @@
             <groupId>com.codeborne</groupId>
             <artifactId>selenide</artifactId>
             <version>${selenide.family}</version>
-<!--            <scope>test</scope>-->
         </dependency>
         <dependency>
             <groupId>com.codeborne</groupId>
@@ -49,11 +48,6 @@
             <version>2.0.9</version>
             <scope>test</scope>
         </dependency>
-      <!--  <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-jdk14</artifactId>
-            <version>2.0.9</version>
-        </dependency>-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
